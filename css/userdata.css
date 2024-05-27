@@ -1,0 +1,54 @@
+/* Style for the body element */
+body {
+    background-color: #f8f9fa; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the main container */
+main {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Style for the form element */
+form {
+    display: flex; 
+    flex-direction: column;
+}
+
+/* Style for label elements */
+label {
+    margin-bottom: 5px; 
+    font-weight: bold;
+}
+
+/* Style for input elements */
+input {
+    margin-bottom: 15px; 
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+/* Style for the button element */
+button {
+    padding: 10px; 
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for the button element when hovered */
+button:hover {
+    background-color: #0056b3; 
+}
